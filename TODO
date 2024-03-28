@@ -1,0 +1,29 @@
+
+Plan:
+  ☐ Create frontend using Angular
+  ☐ Create backend using ASP.NET MVC
+  ☐ Authenticate using ASP.NET Identity
+  ☐ Use Entity Framework to interact with database
+  ☐ Create Database using PostgreSQL
+  ☐ Deploy to Azure
+  ☐ Add CI/CD using Azure DevOps
+  ☐ Add tests
+
+must do:
+  ☐ Site must have home page that lists all blog posts
+  ☐ Site must have a page to allow a logged in user to create a blog post
+  ☐ Site must have a page to allow a blog posts author to edit a blog post
+  ☐ Only a blog posts author should be able to edit a blog post
+  ☐ Only the author should be able to see the edit button
+  ☐ If anyone other the author attempts to access a posts edit page they must be redirected to a 403 page
+  ☐ A logged in user should be able to create a new blog post
+  ☐ An anonymous user should only be able to read blog post
+  ☐ When a user submits a blog post, the content must be validated and errors reported back to the user
+
+a blog post should include:
+  ☐ Id (int)
+  ☐ Author (user id)
+  ☐ Title (string)
+  ☐ Content (string)
+  ☐ CreatedAt (DateTime)
+  ☐ UpdatedAt (DateTime)
