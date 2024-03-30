@@ -27,3 +27,18 @@ a blog post should include:
   ☐ Content (string)
   ☐ CreatedAt (DateTime)
   ☐ UpdatedAt (DateTime)
+
+User should have:
+  ☐ Id (int)
+  ☐ Name (string)
+  ☐ Profile Image
+
+Pre-requisites:
+  ✔ Setup Github repository @done(24-03-29 11:55)
+  ✔ Setup ASP.NET Core MVC project @done(24-03-30 12:24)
+  ✔ Setup Angular project @done(24-03-30 12:55)
+  ✔ Setup PostgreSQL database @done(24-03-30 12:10)
+  ☐ Setup Entity Framework
+  ☐ Setup ASP.NET Identity
+  ☐ Setup Azure DevOps
+  ☐ Setup Azure
