@@ -39,7 +39,7 @@ jobs:
       run: npm install --prefix blog-frontend
       
     - name: Build
-      run: npm run build --prefix blog-frontend -- --prod
+      run: npm run build --prefix blog-frontend -- --configuration=production
 
     - name: Archive production artifacts
       uses: actions/upload-artifact@v2
