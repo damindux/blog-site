@@ -1,12 +1,13 @@
 
 Plan:
   ☐ Create frontend using Angular
-  ☐ Create backend using ASP.NET MVC
+  ☐ Create backend using ASP.NET Core
   ☐ Authenticate using ASP.NET Identity
   ☐ Use Entity Framework to interact with database
   ☐ Create Database using PostgreSQL
   ☐ Deploy to Azure
-  ☐ Add CI/CD using Azure DevOps
+  ✘ Add CI/CD using Azure DevOps @cancelled(24-03-30 14:36)
+  ☐ Add CI/CD using Github Actions
   ☐ Add tests
 
 must do:
@@ -35,10 +36,10 @@ User should have:
 
 Pre-requisites:
   ✔ Setup Github repository @done(24-03-29 11:55)
-  ✔ Setup ASP.NET Core MVC project @done(24-03-30 12:24)
+  ✔ Setup ASP.NET Core Web API project @done(24-03-30 12:24)
   ✔ Setup Angular project @done(24-03-30 12:55)
   ✔ Setup PostgreSQL database @done(24-03-30 12:10)
   ☐ Setup Entity Framework
   ☐ Setup ASP.NET Identity
-  ☐ Setup Azure DevOps
+  ✔ Setup Github Actions @done(24-03-30 14:35)
   ☐ Setup Azure
