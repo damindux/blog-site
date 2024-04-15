@@ -39,7 +39,7 @@ Pre-requisites:
   ✔ Setup ASP.NET Core Web API project @done(24-03-30 12:24)
   ✔ Setup Angular project @done(24-03-30 12:55)
   ✔ Setup PostgreSQL database @done(24-03-30 12:10)
-  ☐ Setup Entity Framework
+  ✔ Setup Entity Framework @done(24-04-15 11:44)
   ☐ Setup ASP.NET Identity
   ✔ Setup Github Actions @done(24-03-30 14:35)
   ☐ Setup Azure
